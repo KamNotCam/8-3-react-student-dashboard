@@ -1,8 +1,12 @@
-
+import StudentList from "./Components/StudentList";
+import Header from "./Components/Header";
+import Cohorts from "./Components/Cohorts";
 function App() {
   return (
     <div>
-      <h1>Student Dashboard</h1>
+      <Header />
+      <StudentList />
+      <Cohorts />
     </div>
   );
 }
